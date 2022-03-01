@@ -1,0 +1,23 @@
+#1.Create 2 folders
+[razz@localhost ~]# mkdir fol1
+
+#2.Create a txt file in folder1
+[razz@localhost ~]# touch file1
+[razz@localhost ~]# mkdir fol2
+
+#3.Write something in that file using vi editor
+[razz@localhost ~]# vi file1
+Hello File1 
+
+#4.Move the file to folder2
+[razz@localhost ~]# mv file1 fol2
+
+#5.List all files folder2
+[razz@localhost ~]# ls fol2
+file1
+
+#6.Delete the folder
+[razz@localhost ~]# rmdir fol1
+[razzt@localhost ~]# ls
+sdsad.py       hi.c        readme.txt
+fol2        hi.js       ff12823test.bin
